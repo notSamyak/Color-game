@@ -1,0 +1,75 @@
+body{
+    background-color: #232323;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Fredoka One',
+    cursive;
+    font-weight: 400;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    background-color: steelblue;
+    margin: 0;
+    line-height: 1.2;
+    padding: 15px 0;
+}
+
+#grid{
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.square{
+    background-color: aquamarine;
+    width: 30%;
+    margin: 1.66%;
+    padding-bottom: 30%;
+    float: left;
+    border-radius: 10%;
+    transition: background 0.7s 200ms;
+}
+
+#controls{
+    background-color: white;
+    text-align: center;
+    height: 30px;
+    color: black;
+}
+
+.difficulty{
+    background-color: steelblue;
+    color: white;
+}
+
+#rgb{
+    margin: 0 auto;
+    font-size: 4rem;
+}
+
+p{
+    text-align: center;
+}
+
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    color: steelblue;
+    font-size: inherit;
+    font-weight: 600;
+    height: 100%;
+    transition: all 0.5s;
+    outline: none;
+}
+
+button:hover{
+    color: white;
+    background: steelblue;
+}
+
+#message{
+    display: inline-block;
+    width: 20%;
+}
